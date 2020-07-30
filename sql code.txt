@@ -19,7 +19,7 @@ insert into REFTABLE values('T2','HOLD_CODE','VARCHAR', 4, NULL);
 
 select * from T2;
 
-
+https://stackoverflow.com/a/52939068
 
 CREATE TABLE REFTABLE2(TABLENAME VARCHAR (20), FIELDNAME VARCHAR (20), TYPE VARCHAR (20),  SIZE INT, NULLC VARCHAR (20))
 
