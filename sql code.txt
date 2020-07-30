@@ -1,0 +1,24 @@
+show tables;
+use mysql;
+
+CREATE TABLE test3 (num float, num2 float(20), num3 float(30));
+
+insert into test3 values (2.5, 24567, 6789);
+
+select * from test3;
+
+describe REFTABLE2;
+
+insert into REFTABLE values('T2','ACCG_UNIT_ID','DOUBLE', NULL, 'NOT NULL');
+
+insert into REFTABLE values('T2','PSD007','BOOLEAN', NULL, 'NOT NULL');
+
+insert into REFTABLE values('T2','PSD001','BOOLEAN', NULL, 'NOT NULL');
+
+insert into REFTABLE values('T2','HOLD_CODE','VARCHAR', 4, NULL);
+
+select * from T2;
+
+
+
+CREATE TABLE REFTABLE2(TABLENAME VARCHAR (20), FIELDNAME VARCHAR (20), TYPE VARCHAR (20),  SIZE INT, NULLC VARCHAR (20))
